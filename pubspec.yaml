@@ -1,0 +1,50 @@
+name: task_thinkalternate
+description: "Background Location Tracker — GPS every 60s, battery via Platform Channel."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.0-10.0.dev
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  flutter_bloc: ^9.1.1
+
+  # Location
+  geolocator: ^13.0.2
+
+  # Background execution
+  flutter_background_service: ^5.0.9
+
+  # Notifications (required by foreground service)
+  flutter_local_notifications: ^18.0.1
+
+  # Local storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Reverse geocoding (lat/lng → human-readable address)
+  geocoding: ^3.0.0
+
+  # Permissions
+  permission_handler: ^11.4.0
+
+  # Dependency injection
+  get_it: ^8.0.3
+  flutter_slidable: ^4.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
