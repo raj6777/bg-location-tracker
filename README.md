@@ -1,13 +1,13 @@
-<img width="1080" height="2412" alt="9" src="https://github.com/user-attachments/assets/86aa20c3-a29e-44da-8ebf-3d1a486a1eb7" />
-<img width="1080" height="2412" alt="8" src="https://github.com/user-attachments/assets/25346b74-6cab-475d-98f8-9bcde441055b" />
-<img width="716" height="1600" alt="7" src="https://github.com/user-attachments/assets/10addf70-0f7a-4fcb-ad8a-e3ef95e48efd" />
-<img width="716" height="1600" alt="6" src="https://github.com/user-attachments/assets/260dc035-19a7-443e-b5c4-b313d3afc1f8" />
-<img width="716" height="1600" alt="5" src="https://github.com/user-attachments/assets/b0c28e30-4df3-451a-9371-df299bdeb65b" />
-<img width="716" height="1600" alt="4" src="https://github.com/user-attachments/assets/e7b74a87-6e51-4dfd-b9f0-ce98caba0d84" />
-<img width="1080" height="2412" alt="3" src="https://github.com/user-attachments/assets/18a0ae01-acf7-442f-a272-3202fe7f5556" />
-<img width="716" height="1600" alt="2" src="https://github.com/user-attachments/assets/b9c2334b-22bf-490b-a25d-949b93e49ddf" />
 <img width="1080" height="2412" alt="1" src="https://github.com/user-attachments/assets/78031292-96b2-457b-9026-a7a7604f488a" />
-﻿# Background Location Tracker
+<img width="716" height="1600" alt="2" src="https://github.com/user-attachments/assets/b9c2334b-22bf-490b-a25d-949b93e49ddf" />
+<img width="1080" height="2412" alt="3" src="https://github.com/user-attachments/assets/18a0ae01-acf7-442f-a272-3202fe7f5556" />
+<img width="716" height="1600" alt="4" src="https://github.com/user-attachments/assets/e7b74a87-6e51-4dfd-b9f0-ce98caba0d84" />
+<img width="716" height="1600" alt="5" src="https://github.com/user-attachments/assets/b0c28e30-4df3-451a-9371-df299bdeb65b" />
+<img width="716" height="1600" alt="6" src="https://github.com/user-attachments/assets/260dc035-19a7-443e-b5c4-b313d3afc1f8" />
+<img width="716" height="1600" alt="7" src="https://github.com/user-attachments/assets/10addf70-0f7a-4fcb-ad8a-e3ef95e48efd" />
+<img width="1080" height="2412" alt="8" src="https://github.com/user-attachments/assets/25346b74-6cab-475d-98f8-9bcde441055b" />
+<img width="1080" height="2412" alt="9" src="https://github.com/user-attachments/assets/86aa20c3-a29e-44da-8ebf-3d1a486a1eb7" />
+# Background Location Tracker
 A production-quality Flutter app that continuously records GPS location **every 60 seconds** — even when backgrounded, minimized, screen-locked, or force-killed (Android). Features real-time battery percentage via a native Platform Channel, local storage with Hive, and BLoC-based state management.
 ## Features
 - 📍 **Continuous Location Tracking** — Records GPS every 60 seconds in a background foreground service
