@@ -90,6 +90,8 @@ class _HomeViewState extends State<_HomeView> with WidgetsBindingObserver {
     );
   }
 
+  // Network dialog removed in revert
+
   void _showForegroundDeniedDialog() {
     showDialog(
       context: context,
@@ -124,7 +126,7 @@ class _HomeViewState extends State<_HomeView> with WidgetsBindingObserver {
       context: context,
       barrierDismissible: false,
       builder: (_) => AlertDialog(
-        icon: const Icon(Icons.location_searching, size: 44, color: Colors.orange),
+        icon: const Icon(Icons.location_searching, size: 44, color: Colors.teal),
         title: const Text('"Always Allow" Needed'),
         content: const Text(
           'You selected "While Using App", but background tracking requires '
@@ -335,7 +337,7 @@ class _HomeViewState extends State<_HomeView> with WidgetsBindingObserver {
       return _statusBlock(
         context,
         icon: Icons.gps_off,
-        color: Colors.orange,
+        color: Colors.teal,
         title: 'GPS is Disabled',
         subtitle: 'Enable location services on your device, then tap START again.',
       );
@@ -345,7 +347,7 @@ class _HomeViewState extends State<_HomeView> with WidgetsBindingObserver {
       return _statusBlock(
         context,
         icon: Icons.location_off,
-        color: Colors.orange,
+        color: Colors.teal,
         title: 'Location Permission Needed',
         subtitle: 'Tap START to grant location permission.',
       );
@@ -355,7 +357,7 @@ class _HomeViewState extends State<_HomeView> with WidgetsBindingObserver {
       return _statusBlock(
         context,
         icon: Icons.location_searching,
-        color: Colors.orange,
+        color: Colors.teal,
         title: '"Always Allow" Required',
         subtitle:
             'Change location permission to "Allow all the time" in Settings, '

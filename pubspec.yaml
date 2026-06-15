@@ -38,6 +38,7 @@ dependencies:
   # Dependency injection
   get_it: ^8.0.3
   flutter_slidable: ^4.0.3
+  wakelock_plus: ^1.6.1
 
 dev_dependencies:
   flutter_test:
